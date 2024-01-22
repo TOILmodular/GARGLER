@@ -46,7 +46,7 @@ Those controls are independent for each of the four channels.
 If a CV output is used for pitching a VCO, it is advisable to use the attenuator, since the full range of the output is spanning 10V (i.e. 10 octaves).
 
 ## Module Build and PCBs
-I added two different versions for the control board here, an "original", and a "Thonk" version.
+I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
 Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
 
 However, since most DIY projects for Eurorack modules out there are using potentiometers from ALPHA and so-called THONKICONN jacks, as they are provided by Thonk in the UK, I also created another control board PCB for the "Thonk" version with footprints for those components.
@@ -70,11 +70,13 @@ Concerning the resistor size, I am usually using small-size resistors, about hal
 
 ## Soldering ICs on Control Board
 There are three ICs to be soldered on the control board in a special way, although the ones to be used are THT.
-Due to space issues, there are no holes for the IC sockets.
+Due to space reasons, there are no holes for the IC sockets.
 The socket legs need to be soldered to the PCB surface, like SMD components.
 
 In order to do that, you need to use those types of sockets, where the legs can be bent, NOT the ones with stiff round legs!
 
 <img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/440ea4bd-f64a-49aa-b3e9-e93ae8265c44">
 
-All socket legs need to be bent to the outside, so it can be put flat onto the PCB. Soldering the sockets to the board is very easy, since the legs and the space inbetween are big compared to real SMD components.
+All socket legs need to be bent to the outside, so it can be put flat onto the PCB. Soldering a socket to the board is very easy, since the legs and the space inbetween are big compared to real SMD components.
+
+The sockets on the main board are to be soldered the usual THT way.
