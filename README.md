@@ -7,7 +7,7 @@ Features:
 - Separate controls for portamento and attenuation for each CV output
 - A clock input to drive the module
 - Two optional inputs from which a 16-stage shift register is influenced and the CV output values are being derived
-- Controls to add or delete single bits, influencing the CV values
+- Buttons to add or delete single bits, influencing the CV values
 - A control to stop the sequence of CV outputs
 - A switch to lock the 16-stage shift register sequence
 
