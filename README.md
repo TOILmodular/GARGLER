@@ -20,7 +20,7 @@ This makes the outcome chaotic, but not random.
 
 ### IN:
 The input signals can come from any type of signal, audio or other CV sources.
-Each input, where no cable is plugged in, is fed by an internal feedback connection from the two shift registers via several CD4030 XOR gates.
+An internal feedback connection from the two shift registers via several CD4030 XOR gates is fed into each input, if no cable is plugged in.
 So the module does not depend on any input.
 The feedback logic is slightly different for each input in a way that the bits compared are derived from different shift register stages.
 
