@@ -1,15 +1,15 @@
 # GARGLER
-This Eurorack module provides four different outputs with chaotic, unpredictable CV values.
+This Eurorack module provides four different outputs with chaotic CV values.
 It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircuits.
 
 Features:
 - Four different (but not independent) CV outputs with a range from 0V to 10V
 - Separate controls for portamento and attenuation for each CV output
-- Clock input to drive the module
+- A clock input to drive the module
 - Two optional inputs from which a 16-stage shift register is influenced and the CV output values are being derived
 - Controls to add or delete single bits, influencing the CV values
-- Control to stop the sequence of CV outputs
-- Switch to lock the 16-stage shift register sequence
+- A control to stop the sequence of CV outputs
+- A switch to lock the 16-stage shift register sequence
 
 ## How the module works
 The module design is purely analog. The core of the module are two CD4094 8-stage shift register in series.
