@@ -32,10 +32,11 @@ If there is a cable plugged into the STOP input, the CV outputs will only change
 
 ### ADD and DEL:
 When pressing the ADD button, and as long as it is kept pressed, the first stage of the shift register will be set to high with each trigger signal into the clock input (provided the sequence is not stopped by a low signal in the STOP input).
-Same for the DEL button, which will set the first stage to low.
+
+Same for the DEL button, except that the first stage will be set to low.
 
 ### Lock Switch:
-When pushing the switch at the LED field center to the left, the current 16 stages are being locked and the 16-atep sequence of CV values will be looped.
+When pushing the switch at the LED field center to the left, the current 16 stages are being locked and the 16-step sequence of CV values will be looped.
 Influencing the sequence via the ADD and DEL buttons is still possible in this mode.
 As soon as the switch is pushed to the right, a new bit value will be determined for the first stage with each clock trigger, moving through the 16 stages with the clock speed.
 
