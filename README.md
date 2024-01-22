@@ -64,6 +64,8 @@ However, there are a few SMD components if you are using the gerber files provid
 
 There are a number SMD capacitors with the package size 1608 (imperial 0603), as well as several NPN transistors MMBT3904 with package size SOT-23-3.
 
+Concerning the resistor size, I am usually using small-size resistors, about half the length of the usual size, so they need less space on the PCB. If you want to use my Gerber files, you have to consider that fact. You might still use normal size resistors and put them in a standing position on the boards. Should also work fine.
+
 ## Soldering ICs on Control Board
 There are three ICs to be soldered on the control board in a special way, although the ones to be used are THT.
 Due to space issues, there are no holes for the IC sockets.
