@@ -51,8 +51,6 @@ Coordinates origin is the lower left corner of the panel.
 | 34 | 46.5 | 15 | CV OUT Jack |
 | 35 | 64.5 | 15 | CV OUT Jack |
 
-*) Y-coordinate = 21 for "original" design. Y-coordinate = 23 for "Thonk" design.
-
 <img height="1200" src="https://github.com/TOILmodular/GARGLER/assets/97026614/c4168169-6e89-43c5-84bd-00797c4fa84f">
 
 ### HP Standard Design
