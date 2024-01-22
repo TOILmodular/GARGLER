@@ -42,3 +42,34 @@ As soon as the switch is pushed to the right, a new bit value will be determined
 ### PORTAMENTO and ATTENUATOR:
 The portamento and attenuator knobs do what they are expected to do.
 Those controls are independent for each of the four channels.
+
+## Module Build and PCBs
+I added two different versions for the control board here, an "original", and a "Thonk" version.
+Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
+
+However, since most DIY projects for Eurorack modules out there are using potentiometers from ALPHA and so-called THONKICONN jacks, as they are provided by Thonk in the UK, I also created another control board PCB for the "Thonk" version with footprints for those components.
+
+I created the Gerber files with the online tool EasyEDA and ordered it at JLCPCB.
+
+## Panel Layout
+I added the information about hole coordinates for the front panel in the folder PanelLayout, referring to the component layout in the PCB Gerber files.
+
+In addition, there is another Gerber file for the panel, following the HP standard. My own modules do not follow that width standard, as I am only using sliding nuts in my racks.
+
+You can use the panel Gerber file to have the panel built out of PCB material.
+
+## Additional Information about specific Components
+The module build is mainly THT, including all ICs.
+However, there are a few SMD components if you are using the gerber files provided.
+
+There are a number SMD capacitors with the package size 1608 (imperial 0603), as well as several NPN transistors MMBT3904 with package size SOT-23-3.
+
+## Soldering ICs on Control Board
+There are three ICs to be soldered on the control board in a special way, although the ones to be used are THT.
+Due to space issues, there are no holes for the IC sockets.
+The socket legs need to be soldered to the PCB surface, like SMD components.
+
+In order to do that, you need to use those types of sockets, where the legs can be bent, NOT the ones with stiff round legs!
+<img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/440ea4bd-f64a-49aa-b3e9-e93ae8265c44">
+
+All socket legs need to be bent to the outside, so it can be put flat onto the PCB. Soldering the sockets to the board is very easy, since the legs and the space inbetween are big compared to real SMD components.
