@@ -72,6 +72,7 @@ Due to space issues, there are no holes for the IC sockets.
 The socket legs need to be soldered to the PCB surface, like SMD components.
 
 In order to do that, you need to use those types of sockets, where the legs can be bent, NOT the ones with stiff round legs!
+
 <img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/440ea4bd-f64a-49aa-b3e9-e93ae8265c44">
 
 All socket legs need to be bent to the outside, so it can be put flat onto the PCB. Soldering the sockets to the board is very easy, since the legs and the space inbetween are big compared to real SMD components.
