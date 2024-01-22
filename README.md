@@ -43,6 +43,7 @@ As soon as the switch is pushed to the right, a new bit value will be determined
 ### PORTAMENTO and ATTENUATOR:
 The portamento and attenuator knobs do what they are expected to do.
 Those controls are independent for each of the four channels.
+If a CV output is used for pitching a VCO, it is advisable to use the attenuator, since the full range of the output is spanning 10V (i.e. 10 octaves).
 
 ## Module Build and PCBs
 I added two different versions for the control board here, an "original", and a "Thonk" version.
