@@ -15,7 +15,7 @@ Features:
 The module design is purely analog. The core of the module are two CD4094 8-stage shift register in series.
 Those are fed by the outcome of an op amp comparator.
 
-The CV values for each channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
+The CV values for each output channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
 This makes the outcome chaotic, but not random.
 
 ### IN:
