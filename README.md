@@ -14,7 +14,7 @@ Features:
 
 ## How the module works
 The module design is purely analog. The core of the module are two CD4094 8-stage shift register ICs in series.
-Those are fed by the outcome of an op amp comparator.
+The stage values are derived from a comparison of two input signals (external or internal via feedback loops) and mixed together in different ways to provide CV outputs.
 
 The CV values for each output channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
 This makes the outcome chaotic, but not random.
