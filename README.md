@@ -19,30 +19,30 @@ The stage values are derived from a comparison of two input signals (external or
 The CV values for each output channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
 This makes the outcome chaotic, but not random.
 
-### IN:
+#### IN
 The input signals can come from any type of signal, audio or other CV sources.
 An internal feedback connection from the two shift registers via several CD4030 XOR gates is fed into each input, if no cable is plugged in.
 So the module does not depend on any external input.
 The feedback logic is slightly different for each input in a way that the bits compared are derived from different shift register stages.
 
-### CLOCK:
+#### CLOCK
 The module requires a clock signal (>1V) to output new CV values. 
 
-### STOP:
+#### STOP
 If there is a cable plugged into the STOP input, the CV outputs will only change to new values, if the input is high (>1V), otherwise the change of CV outputs will stop. If no cable is plugged in, the CV values will change with each clock trigger.
 
-### ADD and DEL:
+#### ADD and DEL
 When pressing the ADD button, and as long as it is kept pressed, the first stage of the shift register will be set to high with each trigger signal into the clock input (provided the sequence is not stopped by a low signal in the STOP input).
 
 Same for the DEL button, except that the first stage will be set to low.
 
-### Lock Switch:
+#### Lock Switch
 When pushing the switch at the LED field center to the left, the current 16 stages are being locked and the 16-step sequence of CV values will be looped.
 Influencing the sequence via the ADD and DEL buttons is still possible in this mode.
 
 As soon as the switch is pushed to the right, the 16 stages are being changed again depending on the input signals (external or internal).
 
-### PORTAMENTO and ATTENUATOR:
+#### PORTAMENTO and ATTENUATOR
 The portamento and attenuator knobs do what they are expected to do.
 Those controls are independent for each of the four channels.
 If a CV output is used for pitching a VCO, it is advisable to use the attenuator, since the full range of the output is spanning 10V (i.e. 10 octaves).
