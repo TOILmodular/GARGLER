@@ -39,7 +39,8 @@ Same for the DEL button, except that the first stage will be set to low.
 ### Lock Switch:
 When pushing the switch at the LED field center to the left, the current 16 stages are being locked and the 16-step sequence of CV values will be looped.
 Influencing the sequence via the ADD and DEL buttons is still possible in this mode.
-As soon as the switch is pushed to the right, a new bit value will be determined for the first stage with each clock trigger, moving through the 16 stages with the clock speed.
+
+As soon as the switch is pushed to the right, the 16 stages are being changed again depending on the input signals (external or internal).
 
 ### PORTAMENTO and ATTENUATOR:
 The portamento and attenuator knobs do what they are expected to do.
