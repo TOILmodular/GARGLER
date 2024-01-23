@@ -6,10 +6,11 @@ Features:
 - Four different (but not independent) CV outputs with a range from 0V to 10V
 - Separate controls for portamento and attenuation for each CV output
 - A clock input to drive the module
-- Two optional inputs from which a 16-stage shift register is influenced and the CV output values are being derived
+- Two optional external inputs from which a 16-stage shift register is influenced and the CV output values are being derived
+- Two internal feedback loops normalled to each of the two input channels, so the module does not depend on any external input signal
 - Buttons to add or delete single bits, influencing the CV values
-- A control to stop the sequence of CV outputs
-- A switch to lock the 16-stage shift register sequence
+- A control to stop the change of CV outputs
+- A switch to lock the current 16 shift register stages and to bring the CV outputs into a 16-step sequence loop
 
 ## How the module works
 The module design is purely analog. The core of the module are two CD4094 8-stage shift register in series.
