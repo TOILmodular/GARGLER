@@ -51,9 +51,17 @@ If a CV output is used for pitching a VCO, it is advisable to use the attenuator
 I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
 Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
 
+<img width="300" alt="CtrlPCB_Orig" src="https://github.com/TOILmodular/GARGLER/assets/97026614/a8fbc0af-805f-4c7b-9b86-065e128c370f">
+
 However, since most DIY projects for Eurorack modules out there are using potentiometers from ALPHA and so-called THONKICONN jacks, as they are provided by Thonk in the UK, I also created another control board PCB for the "Thonk" version with footprints for those components.
 
-I created the Gerber files with the online tool EasyEDA and ordered it at JLCPCB.
+<img width="300" alt="CtrlPCB_Thonk" src="https://github.com/TOILmodular/GARGLER/assets/97026614/172d28bf-8240-41f0-a2d5-ef757705ce10">
+
+The main PCB is the same for both versions.
+
+<img width="300" alt="MainPCB" src="https://github.com/TOILmodular/GARGLER/assets/97026614/31bffe67-1998-448f-b18b-aa1c9286c32a">
+
+I created the Gerber files with the online tool EasyEDA and ordered the PCBs at JLCPCB.
 
 ## Panel Layout
 I added the information about hole coordinates for the front panel in the folder PanelLayout, referring to the component layout in the PCB Gerber files.
