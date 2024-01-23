@@ -13,7 +13,7 @@ Features:
 - A switch to lock the current 16 shift register stages and to bring the CV outputs into a 16-step sequence loop
 
 ## How the module works
-The module design is purely analog. The core of the module are two CD4094 8-stage shift register in series.
+The module design is purely analog. The core of the module are two CD4094 8-stage shift register ICs in series.
 Those are fed by the outcome of an op amp comparator.
 
 The CV values for each output channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
@@ -22,7 +22,7 @@ This makes the outcome chaotic, but not random.
 ### IN:
 The input signals can come from any type of signal, audio or other CV sources.
 An internal feedback connection from the two shift registers via several CD4030 XOR gates is fed into each input, if no cable is plugged in.
-So the module does not depend on any input.
+So the module does not depend on any external input.
 The feedback logic is slightly different for each input in a way that the bits compared are derived from different shift register stages.
 
 ### CLOCK:
