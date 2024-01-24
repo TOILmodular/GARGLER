@@ -2,7 +2,7 @@
 This Eurorack module provides four different outputs with chaotic CV values.
 It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircuits.
 
-Features:
+#### Features
 - Four different (but not independent) CV outputs with a range from 0V to 10V
 - Separate controls for portamento and attenuation for each CV output
 - A clock input to drive the module
@@ -13,7 +13,7 @@ Features:
 - A switch to lock the current 16 shift register stages and to bring the CV outputs into a 16-step sequence loop
 
 ## How the module works
-The module design is purely analog. The core of the module are two CD4094 8-stage shift register ICs in series.
+The core of the module are two CD4094 8-stage shift register ICs in series.
 The stage values are derived from a comparison of two input signals (external or internal via feedback loops) and mixed together in different ways to provide CV outputs.
 
 The CV values for each output channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
@@ -87,6 +87,6 @@ In order to do that, you need to use those types of sockets, where the legs can 
 
 <img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/440ea4bd-f64a-49aa-b3e9-e93ae8265c44">
 
-All socket legs need to be bent to the outside, so it can be put flat onto the PCB. Soldering a socket to the board is very easy, since the legs and the space inbetween are big compared to real SMD components.
+All socket legs need to be bent to the outside, so they can be put flat onto the PCB. Soldering a socket to the board is very easy, since the legs and the space inbetween are big compared to real SMD components.
 
 The sockets on the main board are to be soldered the usual THT way.
