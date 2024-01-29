@@ -19,7 +19,7 @@ It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircui
 - A control to stop the change of CV outputs
 - A switch to lock the current 16 shift register stages and to bring the CV outputs into a 16-step sequence loop
 
-## How the module works
+## How the Module works
 The core of the module are two CD4094 8-stage shift register ICs in series.
 The stage values are derived from a comparison of two input signals (external or internal via feedback loops) and mixed together in different ways to provide CV outputs.
 
@@ -65,7 +65,7 @@ Those controls are independent for each of the four channels.
 
 Attenuating a CV output with the related ATTENUATOR knob does not simply reduce all output values from that channel. Due to the uneven probability distribution of possible CV values, as mentioned above, attenuating an output shifts the entire probability distribution to lower values, like squeezing the probability curve to a narrower voltage range.
 
-## Some suggestions about how to use the module
+## Some Suggestions about how to use the Module
 - The module has the tendency to lock the CV value changes to certain patterns. This can be interrupted by playing around with the ADD and DEL buttons.
 - The module invites to use it interactively by adding and deleting single bits or a series of bits (high or low). The outcome can be quite chaotic, and sometines the module returns back to a previous repetition.
 - Also the interactive use of the attentuators has quite some influence on CV output probabilities due to the facts described above.
@@ -97,7 +97,7 @@ You can use the panel Gerber file to have the panel built out of PCB material.
 
 ## Additional Information about specific Components
 The module build is mainly THT, including all ICs.
-However, there are a few SMD components if you are using the gerber files provided.
+However, there are a few SMD components if you are using the Gerber files provided.
 
 There are a number SMD capacitors with the package size 1608 (imperial 0603), as well as several NPN transistors MMBT3904 with package size SOT-23-3.
 
