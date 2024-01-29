@@ -10,7 +10,7 @@ It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircui
 
 
 #### Features
-- Four different (but not independent) CV outputs with a range from 0V to 10V
+- Four different (but not independent) CV outputs with a range from 0V to 9V (not evenly distributed)
 - Separate controls for portamento and attenuation for each CV output
 - A clock input to drive the module
 - Two optional external inputs from which a 16-stage shift register is influenced and the CV output values are being derived
@@ -25,6 +25,10 @@ The stage values are derived from a comparison of two input signals (external or
 
 The CV values for each output channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
 This makes the outcome chaotic, but not random.
+
+The fact that the derived values depend on how many of the related 8 stages are high or low has two consequences for those values:
+- There are only 8 possible different CV values for each output.
+- The probabilities for each of those values are not the same. E.g. a value of 0V would require that all 8 stages are low, while a maximum value of 9V requires that all stages are high. Due to indistiguishable permutations of stage combinations, the probabilities for values high than 0V and lower than 9V are higher with the highest probability at the middle CV value with 4 stages at high and 4 stages at low.
 
 #### IN
 The input signals can come from any type of signal, audio or other CV sources.
@@ -52,7 +56,15 @@ As soon as the switch is pushed to the right, the 16 stages are being changed ag
 #### PORTAMENTO and ATTENUATOR
 The portamento and attenuator knobs do what they are expected to do.
 Those controls are independent for each of the four channels.
-If a CV output is used for pitching a VCO, it is advisable to use the attenuator, since the full range of the output is spanning 10V (i.e. 10 octaves).
+
+Attenuating a CV output does not simply reduce all output values. Due to the uneven probability distribution of possible CV values, as mentioned above, attenuating an output shifts the entire probability distribution to lower values.
+
+## Some suggestions about how to use the module
+- The module has the tendency to lock the CV value changes to certain sequences. This can be interrupted by playing around with the ADD and DEL buttons.
+- The module invites to use it interactively by adding and deleting single bits or a series of bits (high or low). The outcome can be quite chaotic, and sometines the module returns back to a previous repetition.
+- Also the intewractive use of the attentuators has quite some influense of CV output probabilities due to the facts described above.
+- Changes or repetitions can nicely be observed by the LED field. You can get a general impression if the module tends to higher (more LEDs lit) or lower (less LEDs lit) CV output values. Depending on that, you can add or delete some bits.
+- If the left IN signal is higher than the right one, the first bit of the shift register will be set to high. If the right IN signal is higher, it will be set to low. Keeping that in mind, you can experiment with different input signals on each side - noise, audio, LFO, CV, trigger, internal feedback.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
