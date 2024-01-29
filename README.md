@@ -66,7 +66,7 @@ Those controls are independent for each of the four channels.
 Attenuating a CV output with the related ATTENUATOR knob does not simply reduce all output values from that channel. Due to the uneven probability distribution of possible CV values, as mentioned above, attenuating an output shifts the entire probability distribution to lower values, like squeezing the probability curve to a narrower voltage range.
 
 ## Some suggestions about how to use the module
-- The module has the tendency to lock the CV value changes to certain sequences. This can be interrupted by playing around with the ADD and DEL buttons.
+- The module has the tendency to lock the CV value changes to certain patterns. This can be interrupted by playing around with the ADD and DEL buttons.
 - The module invites to use it interactively by adding and deleting single bits or a series of bits (high or low). The outcome can be quite chaotic, and sometines the module returns back to a previous repetition.
 - Also the interactive use of the attentuators has quite some influence on CV output probabilities due to the facts described above.
 - Changes or repetitions can nicely be observed in the LED field. You can get a general impression if the module tends to higher or lower CV output values (more or fewer LEDs lit). Depending on that, you can add or delete some bits.
