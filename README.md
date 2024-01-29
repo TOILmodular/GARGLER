@@ -70,7 +70,7 @@ Attenuating a CV output with the related ATTENUATOR knob does not simply reduce 
 - The module invites to use it interactively by adding and deleting single bits or a series of bits (high or low). The outcome can be quite chaotic, and sometines the module returns back to a previous repetition.
 - Also the interactive use of the attentuators has quite some influence on CV output probabilities due to the facts described above.
 - Changes or repetitions can nicely be observed in the LED field. You can get a general impression if the module tends to higher or lower CV output values (more or fewer LEDs lit). Depending on that, you can add or delete some bits.
-- If the left IN signal is higher than the right one, the first bit of the shift register will be set to high. If the right IN signal is higher, it will be set to low. Keeping that in mind, you can experiment with different input signals on each side - noise, audio, LFO, CV, trigger, internal feedback.
+- If the left IN signal is higher than the right one at the time of a trigger from the CLOCK input, the first bit of the shift register will be set to high. If the right IN signal is higher, it will be set to low. Keeping that in mind, you can experiment with different input signals on each side - noise, audio, LFO, CV, trigger, internal feedback.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
