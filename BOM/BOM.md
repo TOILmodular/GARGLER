@@ -5,7 +5,6 @@
 | Resistor 1/4W | 20R | 4 | |
 | Resistor 1/4W | 100R | 4 | |
 | Resistor 1/4W | 1K | 1 | |
-| Resistor 1/4W | 2.2K | 2 | |
 | Resistor 1/4W | 10K | 11 | |
 | Resistor 1/4W | 100K | 22 | |
 | Resistor 1/4W | 1M | 16 | |
@@ -13,7 +12,7 @@
 | Capacitor Electrolytic | 10uF | 2 | |
 | Capacitor Ceramic | 0.1uF | 17 | SMD (1608) |
 | Diode | 1N5819 | 2 | |
-| Diode | 1N4148 | 3 | |
+| Diode | 1N4148 | 4 | |
 | LED | 3mm | 16 | |
 | Transistor | MMBT3904 | 16 | SMD (SOT-23-3) |
 | Op Amp | TL074 | 4 | |
