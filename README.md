@@ -1,4 +1,4 @@
-# GARGLER
+# GARGLER - a chaotic CV generator Eurorack module
 This Eurorack module provides four different outputs with chaotic CV values.
 It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircuits.
 
@@ -26,9 +26,9 @@ The stage values are derived from a comparison of two input signals (external or
 The CV values for each output channel are different, but not independent. Each CV value is determined by eight different stage values, with each stage influencing two different channels.
 This makes the outcome chaotic, but not random.
 
-The fact that the derived values depend on how many of the related 8 stages are high or low has two consequences for those values:
-- There are only 8 possible different CV values for each output.
-- The probabilities for each of those values are not the same. E.g. a value of 0V would require that all 8 stages are low, while a maximum value of 9V requires that all stages are high. Due to indistiguishable permutations of stage combinations, the probabilities for values high than 0V and lower than 9V are higher with the highest probability at the middle CV value with 4 stages at high and 4 stages at low.
+The fact that the derived values depend on how many of the related eight stages are high or low has two consequences for those values:
+- There are only eight possible different CV values for each output.
+- The probabilities for each of those values are not the same. E.g. a value of 0V would require that all eight stages are low, while a maximum value of 9V requires that all stages are high. Due to indistiguishable permutations of stage combinations, the probabilities for values high than 0V and lower than 9V are higher with the highest probability at the middle CV value with four stages at high and four stages at low.
 
 #### IN
 The input signals can come from any type of signal, audio or other CV sources.
@@ -40,7 +40,11 @@ The feedback logic is slightly different for each input in a way that the bits c
 The module requires a clock signal (>1V) to output new CV values. 
 
 #### STOP
-If there is a cable plugged into the STOP input, the CV outputs will only change to new values, if the input is high (>1V), otherwise the change of CV outputs will stop. If no cable is plugged in, the CV values will change with each clock trigger.
+If there is a cable plugged into the STOP input, the CV outputs will only change to new values, if the input is high (>1V), otherwise the change of CV outputs will stop.
+
+Due to some reason which I did not yet find out, the constellation of active and inactive stages changes, when sending a high signal to the STOP input, compared to the stopped pattern. Sometimes, this results in the deactivation of all stages (all LEDs off) and no further movement. In that case, just press the ADD button to add a new high value to the first stage to ignite a new pattern.
+
+Consider this bug as an additional feature of chaos.
 
 #### ADD and DEL
 When pressing the ADD button, and as long as it is kept pressed, the first stage of the shift register will be set to high with each trigger signal into the clock input (provided the sequence is not stopped by a low signal in the STOP input).
@@ -53,17 +57,19 @@ Influencing the sequence via the ADD and DEL buttons is still possible in this m
 
 As soon as the switch is pushed to the right, the 16 stages are being changed again depending on the input signals (external or internal).
 
-#### PORTAMENTO and ATTENUATOR
-The portamento and attenuator knobs do what they are expected to do.
+#### PORTAMENTO
+The PORTAMENTO knobs do what they are expected to do, i.e. smoothing out the shift from one CV value to the next.
 Those controls are independent for each of the four channels.
 
-Attenuating a CV output does not simply reduce all output values. Due to the uneven probability distribution of possible CV values, as mentioned above, attenuating an output shifts the entire probability distribution to lower values.
+#### ATTENUATOR
+
+Attenuating a CV output with the related ATTENUATOR knob does not simply reduce all output values from that channel. Due to the uneven probability distribution of possible CV values, as mentioned above, attenuating an output shifts the entire probability distribution to lower values, like squeezing the probability curve to a narrower voltage range.
 
 ## Some suggestions about how to use the module
 - The module has the tendency to lock the CV value changes to certain sequences. This can be interrupted by playing around with the ADD and DEL buttons.
 - The module invites to use it interactively by adding and deleting single bits or a series of bits (high or low). The outcome can be quite chaotic, and sometines the module returns back to a previous repetition.
-- Also the intewractive use of the attentuators has quite some influense of CV output probabilities due to the facts described above.
-- Changes or repetitions can nicely be observed by the LED field. You can get a general impression if the module tends to higher (more LEDs lit) or lower (less LEDs lit) CV output values. Depending on that, you can add or delete some bits.
+- Also the interactive use of the attentuators has quite some influence on CV output probabilities due to the facts described above.
+- Changes or repetitions can nicely be observed in the LED field. You can get a general impression if the module tends to higher or lower CV output values (more or fewer LEDs lit). Depending on that, you can add or delete some bits.
 - If the left IN signal is higher than the right one, the first bit of the shift register will be set to high. If the right IN signal is higher, it will be set to low. Keeping that in mind, you can experiment with different input signals on each side - noise, audio, LFO, CV, trigger, internal feedback.
 
 ## Module Build and PCBs
