@@ -2,6 +2,13 @@
 This Eurorack module provides four different outputs with chaotic CV values.
 It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircuits.
 
+<img height="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/3fb18a32-90c7-4129-8e60-ad567214e95c">
+<img height="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/2d934e23-873a-4cbc-9ae3-71b2fb08ed65">
+
+<img height="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/121e99c1-6281-40e6-89a4-87d81681f247">
+<img height="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/da834276-f82b-410b-8704-74eb76ab6ea8">
+
+
 #### Features
 - Four different (but not independent) CV outputs with a range from 0V to 10V
 - Separate controls for portamento and attenuation for each CV output
