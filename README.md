@@ -74,6 +74,7 @@ Attenuating a CV output with the related ATTENUATOR knob does not simply reduce 
 - Also the interactive use of the attentuators has quite some influence on CV output probabilities due to the facts described above.
 - Changes or repetitions can nicely be observed in the LED field. You can get a general impression if the module tends to higher or lower CV output values (more or fewer LEDs lit). Depending on that, you can add or delete some bits.
 - If the left IN signal is higher than the right one at the time of a trigger from the CLOCK input, the first bit of the shift register will be set to high. If the right IN signal is higher, it will be set to low. Keeping that in mind, you can experiment with different input signals on each side - noise, audio, LFO, CV, trigger, internal feedback.
+- You can also just enjoy observing the dancing LEDs and changing patterns.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
