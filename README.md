@@ -28,7 +28,7 @@ This makes the outcome chaotic, but not random.
 
 The fact that the derived values for each output depend on how many of the related twelve stages are high or low has two consequences for those values:
 - There are only twelve possible discrete CV values for each output.
-- The probabilities for each of those values are not the same. E.g. a value of 0V would require that all twelve stages are low, while a maximum value of 10V requires that all those stages are high. Due to indistiguishable permutations of stage combinations, the probabilities for 0V and 10V are much lower, and the highest probability is given for middle CV value with six stages being high and six stages being low... well, in theory. The actual values and the probabilities of different stage scenarios depend on the signal inputs, running through the comparator.
+- The probabilities for each of those values are not the same. E.g. a value of 0V would require that all twelve stages are low, while a maximum value of 10V requires that all those stages are high. Due to indistiguishable permutations of stage combinations, the probabilities for 0V and 10V are much lower, and the highest probability is given for middle CV value with six stages being high and six stages being low... well, in theory. The actual values and the probabilities of different stage scenarios depend on the signal inputs, running through the comparator. I also played around with different resistor values around the output op amps to get some more variation in the CV values.
 
 #### IN
 The input signals can come from any type of signal, audio or other CV sources.
