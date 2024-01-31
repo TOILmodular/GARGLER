@@ -10,7 +10,7 @@ It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircui
 
 
 #### Features
-- Four different (but not independent) CV outputs with a range from 0V to 9V (not evenly distributed)
+- Four different (but not independent) CV outputs with a range from 0V to 10V (not evenly distributed)
 - Separate controls for portamento and attenuation for each CV output
 - A clock input to drive the module
 - Two optional external inputs from which a 16-stage shift register is influenced and the CV output values are being derived
@@ -28,7 +28,7 @@ This makes the outcome chaotic, but not random.
 
 The fact that the derived values for each output depend on how many of the related twelve stages are high or low has two consequences for those values:
 - There are only twelve possible discrete CV values for each output.
-- The probabilities for each of those values are not the same. E.g. a value of 0V would require that all twelve stages are low, while a maximum value of 9V requires that all those stages are high. Due to indistiguishable permutations of stage combinations, the probabilities for 0V and 9V are much lower, and the highest probability is given for middle CV value with six stages being high and six stages being low... well, in theory. The actual values and the probabilities of different stage scenarios depend on the signal inputs, running through the comparator.
+- The probabilities for each of those values are not the same. E.g. a value of 0V would require that all twelve stages are low, while a maximum value of 10V requires that all those stages are high. Due to indistiguishable permutations of stage combinations, the probabilities for 0V and 10V are much lower, and the highest probability is given for middle CV value with six stages being high and six stages being low... well, in theory. The actual values and the probabilities of different stage scenarios depend on the signal inputs, running through the comparator.
 
 #### IN
 The input signals can come from any type of signal, audio or other CV sources.
