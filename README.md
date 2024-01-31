@@ -87,7 +87,7 @@ However, since most DIY projects for Eurorack modules out there are using potent
 
 The main PCB is the same for both versions.
 
-<img width="300" alt="MainPCB" src="https://github.com/TOILmodular/GARGLER/assets/97026614/b6949455-7e40-4895-a59d-fb498265a1bc">
+<img width="300" alt="MainPCB" src="https://github.com/TOILmodular/GARGLER/assets/97026614/e4118d6f-81de-4b8a-8c81-1f80d62421d3">
 
 I created the Gerber files with the online tool EasyEDA and ordered the PCBs at JLCPCB.
 
