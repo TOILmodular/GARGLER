@@ -10,7 +10,8 @@
 | Resistor 1/4W | 1M | 16 | |
 | Resistor 1/4W | LED | 16 | Choose the resistor value depending on the LED used and brightness preferred, I used 100K for blue LEDs |
 | Capacitor Electrolytic | 10uF | 2 | |
-| Capacitor Ceramic | 0.1uF | 17 | SMD (1608) |
+| Capacitor Ceramic | 1uF | 4 | |
+| Capacitor Ceramic | 0.1uF | 13 | SMD (1608) |
 | Diode | 1N5819 | 2 | |
 | Diode | 1N4148 | 3 | |
 | LED | 3mm | 16 | |
