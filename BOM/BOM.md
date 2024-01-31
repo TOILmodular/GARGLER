@@ -6,8 +6,7 @@
 | Resistor 1/4W | 100R | 4 | |
 | Resistor 1/4W | 1K | 1 | |
 | Resistor 1/4W | 10K | 11 | |
-| Resistor 1/4W | 68K | 4 | |
-| Resistor 1/4W | 100K | 22 | |
+| Resistor 1/4W | 100K | 26 | |
 | Resistor 1/4W | 1M | 16 | |
 | Resistor 1/4W | LED | 16 | Choose the resistor value depending on the LED used and brightness preferred, I used 100K for blue LEDs |
 | Capacitor Electrolytic | 10uF | 2 | |
