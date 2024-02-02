@@ -19,6 +19,10 @@ It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircui
 - A control to stop the change of CV outputs
 - A switch to lock the current 16 shift register stages and to bring the CV outputs into a 16-step sequence loop
 
+A demo of the module is available in this YouTube video:
+
+[<img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/1df53ba5-d7ea-4fb5-aeed-861f91f18c0d">](https://youtu.be/DddVhWjs0wE)
+
 ## How the Module works
 The core of the module are two CD4094 8-stage shift register ICs in series.
 The stage values are derived from a comparison of two input signals (external or internal via feedback loops) and mixed together in different ways to provide CV outputs.
