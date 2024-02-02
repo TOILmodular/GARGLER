@@ -21,7 +21,7 @@ It is based on an idea derived from the 8 Bit Cipher module from NonLinearCircui
 
 A demo of the module is available in this YouTube video:
 
-[<img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/1df53ba5-d7ea-4fb5-aeed-861f91f18c0d">](https://youtu.be/DddVhWjs0wE)
+[<img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/70f6cd10-a251-469a-80bf-59df53929b95">](xxx)
 
 ## How the Module works
 The core of the module are two CD4094 8-stage shift register ICs in series.
