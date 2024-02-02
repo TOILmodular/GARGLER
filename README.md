@@ -118,4 +118,7 @@ In order to do that, you need to use those types of sockets, where the legs can 
 
 All socket legs need to be bent to the outside, so they can be put flat onto the PCB. Soldering a socket to the board is very easy, since the legs and the space inbetween are big compared to real SMD components.
 
+<img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/437a25b2-b9cc-4be9-bf65-0ad2c10efac4">
+<img width="500" src="https://github.com/TOILmodular/GARGLER/assets/97026614/31184858-4c74-43f4-b11a-abf582f29de1">
+
 The sockets on the main board are to be soldered the usual THT way.
