@@ -24,7 +24,7 @@
 | Potentiometer | B100K | 4 | |
 | Mono Jack | 3.5mm | 8 | |
 | Switch | Tactile | 2 | e.g. Mouser: TL1105SPF160Q1RBLK |
-| Switch | Toggle SPDT | 1 | |
+| Switch | Toggle SPDT | 1 | ON-ON |
 | Header | 2.54mm Male 1x4 | 1 | Connector Main Board |
 | Header | 2.54mm Male 1x5 | 1 | Connector Main Board |
 | Header | 2.54mm Male 1x10 | 2 | Connector Main Board |
